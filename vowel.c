@@ -1,44 +1,42 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
     system("clear");
 
-
     char choice;
 
-
     printf("Enter Character ");
-    scanf("%c",&choice);
+    scanf("%c", &choice);
 
-    switch(choice)
+    switch (choice)
     {
-        case 'a':
+    case 'a':
 
-        case 'e':
+    case 'e':
 
-        case 'i':
+    case 'i':
 
-        case 'o':
+    case 'o':
 
-        case 'u':
+    case 'u':
 
-        case 'A':
+    case 'A':
 
-        case 'E':
+    case 'E':
 
-        case 'I':
+    case 'I':
 
-        case 'O':
+    case 'O':
 
-        case 'U':
-            printf("It Is Vowel\n");
+    case 'U':
+        printf("It Is Vowel\n");
 
-            break;
+        break;
 
-        default:
-            printf("It Is Consonant\n");
+    default:
+        printf("It Is Consonant\n");
     }
 
     return 0;
