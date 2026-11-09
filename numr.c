@@ -8,7 +8,7 @@ int main()
     int num;
 
     printf("Enter a Number=");
-    scanf("%d", &num); //-1 or 1200
+    scanf("%d", &num);
 
     if (num >= 1 && num <= 100)
     {
