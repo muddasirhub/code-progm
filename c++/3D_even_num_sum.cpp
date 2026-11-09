@@ -41,6 +41,7 @@ int main()
 
             cout << " = " << sum << endl;
         }
+        
         cout << endl  << endl;
     }
 
